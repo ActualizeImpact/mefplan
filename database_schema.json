@@ -1,0 +1,79 @@
+[
+    {
+      "table_name": "check_in_participants",
+      "column_name": "check_in_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "check_ins",
+      "foreign_column_name": "check_in_id"
+    },
+    {
+      "table_name": "check_in_participants",
+      "column_name": "staff_member_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "staff_members",
+      "foreign_column_name": "staff_member_id"
+    },
+    {
+      "table_name": "meeting_attendees",
+      "column_name": "staff_member_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "staff_members",
+      "foreign_column_name": "staff_member_id"
+    },
+    {
+      "table_name": "meeting_attendees",
+      "column_name": "meeting_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "meetings",
+      "foreign_column_name": "meeting_id"
+    },
+    {
+      "table_name": "milestones",
+      "column_name": "objective_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "objectives",
+      "foreign_column_name": "objective_id"
+    },
+    {
+      "table_name": "milestones",
+      "column_name": "workstream_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "workstreams",
+      "foreign_column_name": "workstream_id"
+    },
+    {
+      "table_name": "objectives",
+      "column_name": "workstream_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "workstreams",
+      "foreign_column_name": "workstream_id"
+    },
+    {
+      "table_name": "staff_workstreams",
+      "column_name": "workstream_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "workstreams",
+      "foreign_column_name": "workstream_id"
+    },
+    {
+      "table_name": "staff_workstreams",
+      "column_name": "staff_member_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "staff_members",
+      "foreign_column_name": "staff_member_id"
+    },
+    {
+      "table_name": "tasks",
+      "column_name": "assigned_to",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "staff_members",
+      "foreign_column_name": "staff_member_id"
+    },
+    {
+      "table_name": "tasks",
+      "column_name": "workstream_id",
+      "constraint_type": "FOREIGN KEY",
+      "foreign_table_name": "workstreams",
+      "foreign_column_name": "workstream_id"
+    }
+  ]
