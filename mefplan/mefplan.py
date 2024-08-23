@@ -1,15 +1,16 @@
 # mefplan.py
 import reflex as rx
-from state.app_state import AppState
-from components.dashboard import dashboard
-from components.workstream_management import workstream_management
-from components.task_management import task_management
-from components.milestone_tracker import milestone_tracker
-from components.staff_management import staff_management
-from components.reporting import reporting
-from components.meeting_management import meeting_management
-from components.objectives_tracking import objectives_tracking
-from components.check_in_system import check_in_system
+from .state.app_state import AppState
+from .components.dashboard import dashboard
+from .components.workstream_management import workstream_management
+from .components.task_management import task_management
+from .components.milestone_tracker import milestone_tracker
+from .components.staff_management import staff_management
+from .components.reporting import reporting
+from .components.meeting_management import meeting_management
+from .components.objectives_tracking import objectives_tracking
+from .components.check_in_system import check_in_system
+
 
 def index() -> rx.Component:
     return rx.theme(
@@ -45,6 +46,7 @@ def index() -> rx.Component:
             padding="4",
         )
     )
+
 
 app = rx.App(state=AppState)
 app.add_page(index)

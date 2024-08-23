@@ -1,5 +1,5 @@
 import reflex as rx
-from state.app_state import AppState
+from ..state.app_state import AppState
 
 
 def check_in_system() -> rx.Component:

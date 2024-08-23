@@ -1,5 +1,6 @@
 import reflex as rx
-from state.app_state import AppState
+from ..state.app_state import AppState
+
 
 def task_management() -> rx.Component:
     return rx.vstack(
@@ -20,7 +21,9 @@ def task_management() -> rx.Component:
             rx.dialog.content(
                 rx.dialog.title("Add Task"),
                 rx.vstack(
-                    rx.input(placeholder="Task Name", on_change=AppState.set_new_task_name),
+                    rx.input(
+                        placeholder="Task Name", on_change=AppState.set_new_task_name
+                    ),
                     rx.select(
                         AppState.task_statuses,
                         placeholder="Select Status",
@@ -31,8 +34,16 @@ def task_management() -> rx.Component:
                         placeholder="Select Priority",
                         on_change=AppState.set_new_task_priority,
                     ),
-                    rx.input(type="date", label="Start Date", on_change=AppState.set_new_task_start_date),
-                    rx.input(type="date", label="End Date", on_change=AppState.set_new_task_end_date),
+                    rx.input(
+                        type="date",
+                        label="Start Date",
+                        on_change=AppState.set_new_task_start_date,
+                    ),
+                    rx.input(
+                        type="date",
+                        label="End Date",
+                        on_change=AppState.set_new_task_end_date,
+                    ),
                     rx.select(
                         AppState.staff_members,
                         placeholder="Assign To",
