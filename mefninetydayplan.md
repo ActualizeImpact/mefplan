@@ -1,4 +1,6 @@
-![MEF Logo](MEF.png)
+<p align="center">
+  <img src="Memphis-Education-Fund-logo.png" alt="MEF Logo">
+</p>
 
 # MEF 90-Day Plan and 18-Month Strategic Alignment
 
