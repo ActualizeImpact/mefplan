@@ -1,4 +1,4 @@
-
+![MEF Logo](mefplan/MEF.png)
 
 # MEF 90-Day Plan and 18-Month Strategic Alignment
 
