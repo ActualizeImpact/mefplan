@@ -5,6 +5,7 @@
 # MEF 90-Day Plan and 18-Month Strategic Alignment
 
 ## I. 90-Day Plan Goals
+
 1. Strengthen Organizational Capacity
 2. Enhance Charter School Support and Advocacy
 3. Improve Data Management and Reporting
@@ -18,8 +19,8 @@
 - Solidify MEF as "go-to" problem solver for Memphis Charters
 
 **90-Day Objectives:**
-a) Complete board transition
-b) Optimize staff allocation and project management
+- a) Complete board transition
+- b) Optimize staff allocation and project management
 
 **KPI 1:** Percentage of staff time reallocated to priority projects
 **Target:** 40% of staff time reallocated to priority projects by October 31, 2024
@@ -36,13 +37,13 @@ b) Optimize staff allocation and project management
 ### 2. Enhance Charter School Support and Advocacy
 
 **18-Month Goals:**
-a) Develop SY2024-25 charter school policy agenda
-b) Win on at least 2 charter leader-directed issues
-c) Stand up a Coalition of 50 Charter Parents
+- a) Develop SY2024-25 charter school policy agenda
+- b) Win on at least 2 charter leader-directed issues
+- c) Stand up a Coalition of 50 Charter Parents
 
 **90-Day Objectives:**
-a) Develop and implement MEF's charter leader engagement framework
-b) Identify key charter school policy impact areas by September 30, 2024
+- a) Develop and implement MEF's charter leader engagement framework
+- b) Identify key charter school policy impact areas by September 30, 2024
 
 **KPI 1:** Number of one-on-one meetings with charter leaders
 **Target:** Meet with 100% of priority Memphis charter leaders by October 30, 2024
@@ -68,12 +69,12 @@ b) Identify key charter school policy impact areas by September 30, 2024
 ### 3. Improve Data Management and Reporting
 
 **18-Month Goals:**
-a) Produce 4 quarterly Impact Reports
-b) Collect and analyze data from 90% of Memphis Charters
+- a) Produce 4 quarterly Impact Reports
+- b) Collect and analyze data from 90% of Memphis Charters
 
 **90-Day Objectives:**
-a) Clean and organize existing MEF Charter School Database
-b) Develop data collection and analysis framework
+- a) Clean and organize existing MEF Charter School Database
+- b) Develop data collection and analysis framework
 
 **KPI 1:** Percentage completion of database cleaning
 **Target:** 100% completion of database cleaning by September 30, 2024
@@ -96,8 +97,8 @@ b) Develop data collection and analysis framework
 ### 4. Secure Financial Stability
 
 **90-Day Objectives:**
-a) Grant Management
-b) Fundraising
+- a) Grant Management
+- b) Fundraising
 
 **KPI 1:** Percentage of SY2024-25 Academic Accountability grants managed effectively
 **Target:** 100% of grants managed according to timeline and requirements by October 31, 2024
